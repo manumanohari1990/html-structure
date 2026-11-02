@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Slam Book</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <section style="width: 500px; margin: auto;">
+        <h1 style="color: blueviolet;">My Slam Book</h1>
+        <p>Fill in the form below !</p>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>About me</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </p>
+                <p>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Academic Information</legend>
+                <p>
+                    <label for="standard">Which standard</label>
+                    <select id="standard" name="standard">
+                        <option value="">-- Select a standard --</option>
+                        <option value="9th">9th</option>
+                        <option value="10th">10th</option>
+                        <option value="11th">11th</option>
+                        <option value="12th">12th</option>
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>My Interests</legend>
+                <p>
+                    <label for="hobby">Hobby:</label>
+                    <input type="text" id="hobby" name="hobby">
+                </p>
+                <p>
+                    <label for="bestie-name">Bestie's Name:</label>
+                    <input type="text" id="bestie-name" name="bestie-name">
+                </p>
+                <p>
+                    <label for="fav-color">Favorite Color:</label>
+                    <input type="text" id="fav-color" name="fav-color">
+                </p>
+                <p>
+                    <label for="fav-movie">Favorite Movie:</label>
+                    <input type="text" id="fav-movie" name="fav-movie">
+                </p>
+            </fieldset>
+
+            <p style="text-align: center; margin-top: 20px;">
+                <input type="submit" value="Book My Appointment">
+            </p>
+        </form>
+    </section>
+</body>
+
+</html>
